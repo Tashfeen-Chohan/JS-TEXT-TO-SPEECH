@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #010758, #490d61);
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.hero h2 span {
+  color: #ff2963;
+}
+
+textarea {
+  width: 600px;
+  height: 250px;
+  font-size: 15px;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #403d84;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  gap: 20px;
+}
+
+.row button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #ff2963;
+}
+
+button i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  color: #fff;
+  flex: 1;
+  background-color: #403d84;
+  height: 50px;
+  padding: 0 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  /* appearance: none; */
+}
